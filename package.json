@@ -11,9 +11,7 @@
     "bugs": {
         "url": "https://github.com/dunstontc/vscode-LANGUAGE-syntax/issues"
     },
-    "scripts": {
-      "start": "gulp watch"
-    },
+    "scripts": {"start": "gulp watch"},
     "engines": {"vscode": "^1.20.0"},
     "categories": ["Programming Languages"],
     "contributes": {
