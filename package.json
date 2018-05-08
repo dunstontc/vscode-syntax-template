@@ -20,6 +20,8 @@
                 "id": "EXTENSION",
                 "aliases": ["EXTENSION"],
                 "extensions": [".EXTENSION"],
+                "filenames": ["EXTENSIONfile"],
+                "firstLine": "^...",
                 "configuration": "./language-configuration.json"
             }
         ],
