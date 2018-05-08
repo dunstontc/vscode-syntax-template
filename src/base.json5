@@ -3,15 +3,18 @@
 	"name": "LANGUAGE",
 	"scopeName": "source.EXTENSION",
 	"patterns": [
-    {
-      "include": "#comment",
-    },
-    {
-      "include": "#operator",
-    },
-    {
-      "include": "#string",
-    },
+    { "include": "#comment" },
+    { "include": "#constant" },
+    { "include": "#entity" },
+    { "include": "#keyword" },
+    { "include": "#meta" },
+    { "include": "#operator" },
+    { "include": "#punctuation" },
+    { "include": "#storage" },
+    { "include": "#string" },
+    { "include": "#support" },
+    { "include": "#type" },
+    { "include": "#variable" },
   ],
   "repository":{},
 }
