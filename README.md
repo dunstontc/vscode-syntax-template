@@ -3,6 +3,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/dunstontc/vscode-shell-syntax/blob/master/LICENSE) 
 
 
+
 ## Resources
 - [kkos/oniguruma/doc/RE](https://github.com/kkos/oniguruma/blob/master/doc/RE)
 - [Scope Naming](https://www.sublimetext.com/docs/3/scope_naming.html)
