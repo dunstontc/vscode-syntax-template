@@ -7,7 +7,7 @@ gulp.task('default', () => { });
 gulp.task('compile-json', () => {
   gulp.src('./src/**/*.json5')
     .pipe(merge({
-      fileName: "EXTENSION.tmLanguage.json",
+      fileName: "shell.tmLanguage.json",
       json5: true,
     }))
     .pipe(json5({

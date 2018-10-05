@@ -11,16 +11,28 @@
     "bugs": {
         "url": "https://github.com/dunstontc/vscode-LANGUAGE-syntax/issues"
     },
-    "scripts": {"start": "gulp watch"},
-    "engines": {"vscode": "^1.20.0"},
-    "categories": ["Programming Languages"],
+    "scripts": {
+        "start": "gulp watch"
+    },
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
     "contributes": {
         "languages": [
             {
                 "id": "EXTENSION",
-                "aliases": ["EXTENSION"],
-                "extensions": [".EXTENSION"],
-                "filenames": ["EXTENSIONfile"],
+                "aliases": [
+                    "EXTENSION"
+                ],
+                "extensions": [
+                    ".EXTENSION"
+                ],
+                "filenames": [
+                    "EXTENSIONfile"
+                ],
                 "firstLine": "^...",
                 "configuration": "./language-configuration.json"
             }

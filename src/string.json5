@@ -3,12 +3,12 @@
     "string": {
       "patterns": [
         {
-          "name": "string.quoted.single.EXTENSION",
+          "name": "string.quoted.single.shell",
           "begin": "'",
           "end": "'",
         },
         {
-          "name": "string.quoted.double.EXTENSION",
+          "name": "string.quoted.double.shell",
           "begin": "\"",
           "end": "\"",
         },
