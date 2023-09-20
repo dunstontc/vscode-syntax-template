@@ -9,9 +9,6 @@
             "include": "#keyword"
         },
         {
-            "include": "#meta"
-        },
-        {
             "include": "#operator"
         },
         {
@@ -45,18 +42,34 @@
         "keyword": {
             "patterns": []
         },
-        "meta": {
-            "patterns": []
-        },
         "operator": {
             "patterns": [
                 {
-                    "match": "(h)",
-                    "name": "operator.hammer-on.tabs"
+                    "match": "(?<=\\d)(h)",
+                    "name": "operator.hammer-on.tabs",
+                    "captures": {
+                        "1": {
+                            "name": "operator.vibrato.tabs"
+                        }
+                    }
                 },
                 {
-                    "match": "(p)",
-                    "name": "operator.pull-off.tabs"
+                    "match": "(?<=\\d)(p)",
+                    "name": "operator.pull-off.tabs",
+                    "captures": {
+                        "1": {
+                            "name": "operator.vibrato.tabs"
+                        }
+                    }
+                },
+                {
+                    "match": "(?<=\\d)(~+)",
+                    "name": "operator.tabs",
+                    "captures": {
+                        "1": {
+                            "name": "operator.vibrato.tabs"
+                        }
+                    }
                 }
             ]
         },

@@ -5,12 +5,11 @@
     "patterns": [
         { "include": "#constant" },
         { "include": "#keyword" },
-        { "include": "#meta" },
         { "include": "#operator" },
         { "include": "#punctuation" },
         { "include": "#storage" },
         { "include": "#support" },
-        { "include": "#variable" },
+        { "include": "#variable" }
     ],
-    "repository": {},
+    "repository": {}
 }

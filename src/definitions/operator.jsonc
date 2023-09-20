@@ -4,12 +4,19 @@
         "operator": {
             "patterns": [
                 {
-                    "match": "(h)",
+                    "match": "(?<=\\d)(h)",
                     "name": "operator.hammer-on.tabs",
+                    "captures": { "1": { "name": "operator.vibrato.tabs" } }
                 },
                 {
-                    "match": "(p)",
+                    "match": "(?<=\\d)(p)",
                     "name": "operator.pull-off.tabs",
+                    "captures": { "1": { "name": "operator.vibrato.tabs" } }
+                },
+                {
+                    "match": "(?<=\\d)(~+)",
+                    "name": "operator.tabs",
+                    "captures": { "1": { "name": "operator.vibrato.tabs" } }
                 },
             ]
         }
