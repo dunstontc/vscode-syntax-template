@@ -1,11 +1,19 @@
 {
-    "json.schemas": [{
-        "fileMatch": ["../src/definitions/*.jsonc"],
-        "url": "../src/tmLanguage.json-schema.json",
-        "schema": {
-            "allowTrailingCommas": true
-        }
-    }],
+    "json.schemas": [
+        // {
+        //     "fileMatch": ["../src/definitions/*.jsonc"],
+        //     "schema": {
+        //         "allowTrailingCommas": true
+        //     }
+        // },
+        {
+            "fileMatch": ["../src/definitions/*.jsonc"],
+            "url": "../src/tmLanguage.json-schema.json",
+            "schema": {
+                "allowTrailingCommas": true
+            }
+        },
+    ],
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
