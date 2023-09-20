@@ -1,7 +1,7 @@
 {
-  "repository": {
-    "comment": {
-      "patterns": []
+    "repository": {
+        "comment": {
+            "patterns": []
+        }
     }
-  }
 }

@@ -1,18 +1,18 @@
 {
-  "repository": {
-    "string": {
-      "patterns": [
-        {
-          "name": "string.quoted.single.shell",
-          "begin": "'",
-          "end": "'",
-        },
-        {
-          "name": "string.quoted.double.shell",
-          "begin": "\"",
-          "end": "\"",
-        },
-      ]
+    "repository": {
+        "string": {
+            "patterns": [
+                {
+                    "name": "string.quoted.single.tabs",
+                    "begin": "'",
+                    "end": "'",
+                },
+                {
+                    "name": "string.quoted.double.tabs",
+                    "begin": "\"",
+                    "end": "\"",
+                },
+            ]
+        }
     }
-  }
 }

@@ -4,8 +4,8 @@ G D Em D
 Am G D
 
 ## Verse 1
-`G`   `D`               `Em`
 
+`G`   `D`               `Em`
 Sometimes, you look the same
 
 `D`           `Am`           `G`      `D`

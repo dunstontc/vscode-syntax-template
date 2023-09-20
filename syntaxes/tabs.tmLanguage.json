@@ -1,0 +1,104 @@
+{
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "name": "tabs",
+    "scopeName": "source.tabs",
+    "patterns": [
+        {
+            "include": "#comment"
+        },
+        {
+            "include": "#constant"
+        },
+        {
+            "include": "#entity"
+        },
+        {
+            "include": "#invalid"
+        },
+        {
+            "include": "#keyword"
+        },
+        {
+            "include": "#meta"
+        },
+        {
+            "include": "#operator"
+        },
+        {
+            "include": "#punctuation"
+        },
+        {
+            "include": "#storage"
+        },
+        {
+            "include": "#string"
+        },
+        {
+            "include": "#support"
+        },
+        {
+            "include": "#type"
+        },
+        {
+            "include": "#variable"
+        }
+    ],
+    "repository": {
+        "comment": {
+            "patterns": []
+        },
+        "constant": {
+            "patterns": [
+                {
+                    "comment": "Notes",
+                    "match": "\\d",
+                    "name": "constant.numeric.fret.tabs"
+                }
+            ]
+        },
+        "entity": {
+            "patterns": []
+        },
+        "invalid": {
+            "patterns": []
+        },
+        "keyword": {
+            "patterns": []
+        },
+        "meta": {
+            "patterns": []
+        },
+        "operator": {
+            "patterns": []
+        },
+        "punctuation": {
+            "patterns": []
+        },
+        "storage": {
+            "patterns": []
+        },
+        "string": {
+            "patterns": [
+                {
+                    "name": "string.quoted.single.tabs",
+                    "begin": "'",
+                    "end": "'"
+                },
+                {
+                    "name": "string.quoted.double.tabs",
+                    "begin": "\"",
+                    "end": "\""
+                }
+            ]
+        },
+        "support": {
+            "patterns": []
+        },
+        "type": {
+            "patterns": []
+        },
+        "variable": {
+            "patterns": []
+        }
+    }
+}

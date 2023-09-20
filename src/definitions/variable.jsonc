@@ -1,7 +1,7 @@
 {
-  "repository": {
-    "variable": {
-      "patterns": []
+    "repository": {
+        "variable": {
+            "patterns": []
+        }
     }
-  }
 }

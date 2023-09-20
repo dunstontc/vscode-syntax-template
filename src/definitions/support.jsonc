@@ -1,7 +1,7 @@
 {
-  "repository": {
-    "support": {
-      "patterns": []
+    "repository": {
+        "support": {
+            "patterns": []
+        }
     }
-  }
 }
