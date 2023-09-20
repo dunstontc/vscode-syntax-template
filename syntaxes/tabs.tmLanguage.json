@@ -13,9 +13,6 @@
             "include": "#entity"
         },
         {
-            "include": "#invalid"
-        },
-        {
             "include": "#keyword"
         },
         {
@@ -31,13 +28,7 @@
             "include": "#storage"
         },
         {
-            "include": "#string"
-        },
-        {
             "include": "#support"
-        },
-        {
-            "include": "#type"
         },
         {
             "include": "#variable"
@@ -57,9 +48,6 @@
             ]
         },
         "entity": {
-            "patterns": []
-        },
-        "invalid": {
             "patterns": []
         },
         "keyword": {
@@ -115,24 +103,7 @@
                 }
             ]
         },
-        "string": {
-            "patterns": [
-                {
-                    "name": "string.quoted.single.tabs",
-                    "begin": "'",
-                    "end": "'"
-                },
-                {
-                    "name": "string.quoted.double.tabs",
-                    "begin": "\"",
-                    "end": "\""
-                }
-            ]
-        },
         "support": {
-            "patterns": []
-        },
-        "type": {
             "patterns": []
         },
         "variable": {
