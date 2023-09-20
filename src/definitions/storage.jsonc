@@ -3,31 +3,21 @@
     "repository": {
         "storage": {
             "patterns": [
-
                 {
-                    // "match": "^(var)\\s+(\\w+)\\s+(?:\\[\\])?(?!map)(\\w+)",
                     "match": "^(\\[)([^\\[\\]]+)(\\]$)",
-
                     "captures": {
-
-                        // "1": { "name": "punctuation.definition.section.tabs" },
+                        "1": { "name": "punctuation.definition.section.tabs" },
                         "2": { "name": "variable.other.section.tabs" },
-                        // "3": { "name": "punctuation.definition.section.tabs" },
-                        "patterns": [
-                            {
-                                "match": "(^\\[)",
-                                "name": "punctuation.definition.section-begin.tabs",
-                            },
-                            {
-                                "match": "(\\]$)",
-                                "name": "punctuation.definition.section-begin.tabs",
-                            },
-                        ]
+                        "3": { "name": "punctuation.definition.section.tabs" },
                     },
+                    // "patterns": [
+                    //     {
+                    //         "match": "(\\[|\\])",
+                    //         "name": "punctuation.definition.section.tabs",
+                    //     },
+                    // ],
+                    // "include": "#punctuation"
                 },
-                {
-                    "include": "#punctuation"
-                }
             ]
         }
     }

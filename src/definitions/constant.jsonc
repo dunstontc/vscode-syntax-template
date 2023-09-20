@@ -9,6 +9,11 @@
                 //     "name": "constant.note.tabs",
                 // },
                 {
+                    "comment": "Note",
+                    "match": "[cdefgabCDEFGAB]",
+                    "name": "constant.note.tabs",
+                },
+                {
                     "comment": "Notes",
                     "match": "(\\d)",
                     "name": "constant.numeric.fret.tabs",
