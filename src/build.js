@@ -24,7 +24,12 @@ const buildAsync = async () => {
         // if (!isBlankDeep(json)) {
         //     definitions.push(json)
         // }
-        definitions.push(json)
+
+        const {
+            "$schema": _,
+            ...rest
+        } = json
+        definitions.push(rest)
     }
 
     const merged = _.merge({}, ...definitions)

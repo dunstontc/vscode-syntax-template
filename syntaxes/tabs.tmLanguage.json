@@ -1,5 +1,4 @@
 {
-    "$schema": "../tmLanguage.json-schema.json",
     "name": "tabs",
     "scopeName": "source.tabs",
     "patterns": [
