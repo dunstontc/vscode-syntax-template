@@ -6,8 +6,8 @@ const fixJson = require("fixjson")
 const _ = require("lodash")
 
 const PROJECT_ROOT = process.cwd()
-
 const DEFS_FOLDER = path.join(PROJECT_ROOT, "src", "definitions")
+const OUT_FILE_PATH = path.join(PROJECT_ROOT, "syntaxes", "tabs.tmLanguage.json")
 
 const buildAsync = async () => {
     const files = coolkit.readFolder(DEFS_FOLDER, true)
@@ -24,7 +24,7 @@ const buildAsync = async () => {
 
     const merged = _.merge({}, ...definitions)
 
-    console.log(JSON.stringify(merged, null, 4))
+    await coolkit.writeJsonFile(OUT_FILE_PATH, merged)
 }
 
 module.exports = {
