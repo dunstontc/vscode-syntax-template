@@ -1,5 +1,8 @@
 const { buildAsync } = require("./build")
 
+const red   = (s) => s
+const green = (s) => s
+
 async function main() {
     await buildAsync()
 }
