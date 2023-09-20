@@ -1,7 +1,20 @@
 {
     "repository": {
         "punctuation": {
-            "patterns": []
+            "patterns": [
+                {
+                    "match": "(-)",
+                    "name": "punctuation.other.dash.tabs",
+                },
+                {
+                    "match": "([\\[\\]])",
+                    "name": "punctuation.definition.section.tabs",
+                },
+                {
+                    "match": "(x)",
+                    "name": "punctuation.other.dead-note.tabs",
+                },
+            ]
         }
     }
 }

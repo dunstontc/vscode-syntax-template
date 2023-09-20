@@ -51,7 +51,7 @@
             "patterns": [
                 {
                     "comment": "Notes",
-                    "match": "\\d",
+                    "match": "(\\d)",
                     "name": "constant.numeric.fret.tabs"
                 }
             ]
@@ -72,10 +72,35 @@
             "patterns": []
         },
         "punctuation": {
-            "patterns": []
+            "patterns": [
+                {
+                    "match": "(-)",
+                    "name": "punctuation.other.dash.tabs"
+                },
+                {
+                    "match": "([\\[\\]])",
+                    "name": "punctuation.definition.section.tabs"
+                },
+                {
+                    "match": "(x)",
+                    "name": "punctuation.other.dead-note.tabs"
+                }
+            ]
         },
         "storage": {
-            "patterns": []
+            "patterns": [
+                {
+                    "match": "^(\\[)\\s+(\\w+)\\s+(\\]$)",
+                    "captures": {
+                        "1": {
+                            "name": "punctuation.definition.section.tabs"
+                        },
+                        "2": {
+                            "name": "variable.other.section.tabs"
+                        }
+                    }
+                }
+            ]
         },
         "string": {
             "patterns": [

@@ -1,7 +1,16 @@
 {
     "repository": {
         "storage": {
-            "patterns": []
+            "patterns": [
+                {
+                    // "match": "^(var)\\s+(\\w+)\\s+(?:\\[\\])?(?!map)(\\w+)",
+                    "match": "^(\\[)\\s+(\\w+)\\s+(\\]$)",
+                    "captures": {
+                      "1": { "name": "punctuation.definition.section.tabs" },
+                      "2": { "name": "variable.other.section.tabs" },
+                    },
+                  },
+            ]
         }
     }
 }
