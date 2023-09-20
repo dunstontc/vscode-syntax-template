@@ -5,7 +5,6 @@
     "patterns": [
         { "include": "#comment" },
         { "include": "#constant" },
-        { "include": "#entity" },
         { "include": "#keyword" },
         { "include": "#meta" },
         { "include": "#operator" },
