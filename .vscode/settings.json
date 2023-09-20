@@ -8,7 +8,7 @@
         // },
         {
             "fileMatch": ["../src/definitions/*.jsonc"],
-            "url": "../src/tmLanguage.json-schema.json",
+            "url": "../src/schema/tmLanguage.json-schema.json",
             "schema": {
                 "allowTrailingCommas": true
             }

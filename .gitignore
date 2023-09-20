@@ -1,5 +1,5 @@
 node_modules
-vsix/
+build/
 .vsix
 .DS_store
 ignore

@@ -29,7 +29,12 @@
             "patterns": [
                 {
                     "comment": "Note",
-                    "match": "[CDEFGAB](b|#)?(m|M|min|maj|minmaj|dim|aug|\\+)?(\\d)?(sus|sus2|sus4)?(add)?(2|4|5|6|7|9|10|11|13)?(#11)?(b5)?(\\z|\\n|\\r|\\/| )",
+                    "match": "[CDEFGAB](b|#)?(m|M|min|maj|minmaj|dim|aug|\\+)?(\\d)?(sus|sus2|sus4)?(add)?(2|4|5|6|7|9|10|11|13)?(#11)?(b5)?(\\z|\\n|\\r|\\/| )?",
+                    "name": "constant.note.tabs"
+                },
+                {
+                    "comment": "Note",
+                    "match": "[cdefgabCDEFGAB]",
                     "name": "constant.note.tabs"
                 },
                 {

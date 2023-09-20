@@ -12,7 +12,10 @@
         "url": "https://github.com/dunstontc/vscode-tabs-syntax/issues"
     },
     "scripts": {
-        "start": "node ./src/main.js"
+        "start": "node ./src/main.js",
+        "build": "vsce package -o ./build",
+        "really-publish": "vsce publish",
+        "publish": "npm run build && npm run really-publish"
     },
     "engines": {
         "vscode": "^1.20.0"
