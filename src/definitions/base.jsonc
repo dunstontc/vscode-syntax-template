@@ -3,7 +3,6 @@
     "name": "tabs",
     "scopeName": "source.tabs",
     "patterns": [
-        { "include": "#comment" },
         { "include": "#constant" },
         { "include": "#keyword" },
         { "include": "#meta" },

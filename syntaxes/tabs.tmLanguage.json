@@ -1,16 +1,10 @@
 {
-    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+    "$schema": "../tmLanguage.json-schema.json",
     "name": "tabs",
     "scopeName": "source.tabs",
     "patterns": [
         {
-            "include": "#comment"
-        },
-        {
             "include": "#constant"
-        },
-        {
-            "include": "#entity"
         },
         {
             "include": "#keyword"
@@ -35,9 +29,6 @@
         }
     ],
     "repository": {
-        "comment": {
-            "patterns": []
-        },
         "constant": {
             "patterns": [
                 {
@@ -46,9 +37,6 @@
                     "name": "constant.numeric.fret.tabs"
                 }
             ]
-        },
-        "entity": {
-            "patterns": []
         },
         "keyword": {
             "patterns": []
@@ -79,10 +67,6 @@
                     "name": "punctuation.other.line-delimiter.tabs"
                 },
                 {
-                    "match": "([\\[\\]])",
-                    "name": "punctuation.definition.section.tabs"
-                },
-                {
                     "match": "(x)",
                     "name": "punctuation.other.dead-note.tabs"
                 }
@@ -91,15 +75,25 @@
         "storage": {
             "patterns": [
                 {
-                    "match": "^(\\[)\\s+(\\w+)\\s+(\\]$)",
+                    "match": "^(\\[)([^\\[\\]]+)(\\]$)",
                     "captures": {
-                        "1": {
-                            "name": "punctuation.definition.section.tabs"
-                        },
                         "2": {
                             "name": "variable.other.section.tabs"
-                        }
+                        },
+                        "patterns": [
+                            {
+                                "match": "(^\\[)",
+                                "name": "punctuation.definition.section-begin.tabs"
+                            },
+                            {
+                                "match": "(\\]$)",
+                                "name": "punctuation.definition.section-begin.tabs"
+                            }
+                        ]
                     }
+                },
+                {
+                    "include": "#punctuation"
                 }
             ]
         },

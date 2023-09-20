@@ -1,4 +1,5 @@
 {
+    "$schema": "../tmLanguage.json-schema.json",
     "repository": {
         "punctuation": {
             "patterns": [
@@ -10,10 +11,10 @@
                     "match": "(\\|)",
                     "name": "punctuation.other.line-delimiter.tabs",
                 },
-                {
-                    "match": "([\\[\\]])",
-                    "name": "punctuation.definition.section.tabs",
-                },
+                // {
+                //     "match": "([\\[\\]])",
+                //     "name": "punctuation.definition.section.tabs",
+                // },
                 {
                     "match": "(x)",
                     "name": "punctuation.other.dead-note.tabs",
