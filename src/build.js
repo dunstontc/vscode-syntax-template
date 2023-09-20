@@ -5,8 +5,8 @@ const coolkit = require("coolkit-js")
 const fixJson = require("fixjson")
 const _ = require("lodash")
 
-const PROJECT_ROOT = process.cwd()
-const DEFS_FOLDER = path.join(PROJECT_ROOT, "src", "definitions")
+const PROJECT_ROOT  = process.cwd()
+const DEFS_FOLDER   = path.join(PROJECT_ROOT, "src", "definitions")
 const OUT_FILE_PATH = path.join(PROJECT_ROOT, "syntaxes", "tabs.tmLanguage.json")
 
 const buildAsync = async () => {
