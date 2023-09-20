@@ -1,11 +1,11 @@
-const gulp  = require('gulp');
-const merge = require('gulp-merge-json');
-const json5 = require('gulp-json5-to-json');
+const gulp  = require("gulp");
+const merge = require("gulp-merge-json");
+const json5 = require("gulp-json5-to-json");
 
-gulp.task('default', () => { });
+gulp.task("default", () => { });
 
-gulp.task('compile-json', () => {
-  gulp.src('./src/**/*.json5')
+gulp.task("compile-json", () => {
+  gulp.src("./src/definitions/**/*.jsonc")
     .pipe(merge({
       fileName: "shell.tmLanguage.json",
       json5: true,
@@ -13,9 +13,9 @@ gulp.task('compile-json', () => {
     .pipe(json5({
       beautify: true,
     }))
-    .pipe(gulp.dest('./syntaxes'));
+    .pipe(gulp.dest("./syntaxes"));
 });
 
-gulp.task('watch', () => {
-  gulp.watch('./src/**/*.json5', [ 'compile-json' ]);
+gulp.task("watch", () => {
+  gulp.watch("./src/**/*.json5", [ "compile-json" ]);
 });
