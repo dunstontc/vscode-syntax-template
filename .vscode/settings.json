@@ -1,0 +1,8 @@
+{
+    "json.schemas": [{
+		"fileMatch": ["C:\\Users\\Clay\\source\\repos\\vscode\\vscode-syntax-template\\src\\base.jsonc"],
+		"schema": {
+			"allowTrailingCommas": true
+		}
+	}]
+}
