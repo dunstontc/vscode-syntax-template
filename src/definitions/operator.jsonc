@@ -1,7 +1,17 @@
 {
+    "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
     "repository": {
         "operator": {
-            "patterns": []
+            "patterns": [
+                {
+                    "match": "(h)",
+                    "name": "operator.hammer-on.tabs",
+                },
+                {
+                    "match": "(p)",
+                    "name": "operator.pull-off.tabs",
+                },
+            ]
         }
     }
 }

@@ -7,6 +7,10 @@
                     "name": "punctuation.other.dash.tabs",
                 },
                 {
+                    "match": "(\\|)",
+                    "name": "punctuation.other.line-delimiter.tabs",
+                },
+                {
                     "match": "([\\[\\]])",
                     "name": "punctuation.definition.section.tabs",
                 },
