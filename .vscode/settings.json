@@ -14,20 +14,4 @@
             }
         },
     ],
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "scope": [
-                    "punctuation.other.dash.tabs",
-                ],
-                "settings": {"foreground": "#505050"},
-            },
-            {
-                "scope": [
-                    "punctuation.definition.section.tabs",
-                ],
-                "settings": {"foreground": "#808080"},
-            },
-        ]
-    },
 }

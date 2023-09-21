@@ -1,0 +1,37 @@
+{
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "punctuation.other.dash.tabs",
+                ],
+                "settings": {"foreground": "#505050"},
+            },
+            {
+                "scope": [
+                    "punctuation.other.line-delimiter.tabs",
+                ],
+                "settings": {"foreground": "#808080"},
+            },
+            {
+                "scope": [
+                    "operator.tabs",
+                    "operator.pull-off.tabs",
+                ],
+                "settings": {"foreground": "#C586C0"},
+            },
+            {
+                "scope": [
+                    "punctuation.definition.section.tabs",
+                ],
+                "settings": {"foreground": "#569CD6"},
+            },
+            {
+                "scope": [
+                    "constant.note.tabs",
+                ],
+                "settings": {"foreground": "#4EC9B0"},
+            },
+        ]
+    },
+}
