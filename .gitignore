@@ -3,3 +3,4 @@ build/
 .vsix
 .DS_store
 ignore
+.npmrc
